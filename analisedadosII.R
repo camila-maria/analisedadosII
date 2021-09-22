@@ -1,5 +1,23 @@
 #AULA 01 =======================================================================
 
+# Projetos e viajar entre as pastas:
+
+# usethis::create_project("~/") pasta documentos
+
+# usethis::create_project("~/dados") criei uma pasta chamada "dados" na pasta documentos"
+
+usethis::use_git()
+
+#usethis::use_github(organisation = "camila-maria/analisedadosII")
+
+usethis::create_github_token()
+
+gitcreds::gitcreds_set()
+
+# Análise
+
+# Importação
+
 #Pacotes
 library(readr)
 
